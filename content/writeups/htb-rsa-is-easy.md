@@ -52,7 +52,7 @@ So my first incstinct was to plug `n1` into [factordb](https://factordb.com/) to
 p = 8413387656561188778435613942028835678781206299389177514340760123063579360223360470566083306606450007991287094526418200038784207648097820069671213638771543
 q = 12040644312371555810530782070969893153760288255333349208608058511112776958879208815174991008199408527954332776642365069284747758115478414463195873149420483
 ```
-It's still solvable without factordb, but knowing them straightaway makes things a bit easeir easier. All I need to do now is find `z`. 
+It's still solvable without factordb, but knowing them straightaway makes things a bit easier. All I need to do now is find `z`. 
 
 {{< katex >}}
 Let's say the last expression of the output is `l`. 
@@ -89,7 +89,7 @@ print(f'z: {pos_z}')
 print(f'q: {q}')
 print(f'n2: {pos_z*q}')
 ```
-I first have to check which prime is actually `p` and `q`. If `l` is divisible by `p`, then `p`'s value should actually be `q`'s. Then, I find the possible `z` by dividing `z` by `q` and then finding the modulo `p`. If the result is prime, then I can be fairly sure it's z. Otherwise, I probably need to add `p` to the result.
+I first have to check which prime is actually `p` and `q`. If `l` is divisible by `p`, then `p`'s value should actually be `q`'s. Then, I find the possible `z` by dividing `z` by `q` and then finding the modulo `p`. If the result is prime, then I can be fairly sure it's `z`. Otherwise, I probably need to add `p` to the result.
 
 ```
 z: 11902090706985450385711168746097079051837131924073767206823087288985169946406322955178859673901568871635087104842289268116429662526641184231035970230536659
