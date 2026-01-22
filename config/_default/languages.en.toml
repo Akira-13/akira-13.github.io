@@ -4,7 +4,7 @@ languageDirection = "ltr"
 weight = 1
 
 title = "Ak13a's site"
-copyright = "© 2025 Diego Akira García Rojas"
+copyright = "© 2026 Diego Akira García Rojas"
 
 [params]
   dateFormat = "2 January 2006"
@@ -13,7 +13,7 @@ copyright = "© 2025 Diego Akira García Rojas"
   description = "Ak13a's personal blog and portfolio"
 
 [params.author]
-  name = "Ak13a"
+  name = "ak13a"
   image = "img/pic.jpg"
   headline = "Comp. Sci. Student, Cybersecurity enthusiast, CTF Player"
   links = [
